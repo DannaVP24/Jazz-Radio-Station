@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	background: url(../img/fondo.jpg);
+}
+header {
+	background: url(../img/fondo_header.png) center bottom;
+	padding: 20px 0;
+	margin-bottom: 48px;
+}
+.contenedor {
+    width: 960px;
+	margin: auto;
+	padding: 0 15px;
+}
+#logo, #menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo {
+	width: 30%;
+}
+#menu {
+	width: 70%;
+	text-align: right;
+}
+#menu a {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 1s;
+}
+#menu a:hover {
+	background: #FFF;
+	color: rgb(42, 181, 186);
+	border-radius: 8px;
+}
+#menu img {
+    display: inline-block;
+    vertical-align: middle;
+}
+#banner .contenedor {
+	padding: 0;
+}
+#welcome, #tell {
+	display: inline-block;
+	vertical-align: top;
+}
+#welcome {
+	width: 640px;
+	padding-right: 30px;
+	margin-top: 15px;
+}
+#welcome h2 {
+	margin: 0;
+	font-size: 46px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: -2px;
+}
+#welcome p {
+	font-size: 14px;
+	line-height: 1.786;
+}
+#welcome p span {
+	color: #00989d;
+}
+#welcome h3 {
+	font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+	letter-spacing: -2px;
+	margin-bottom: 10px;
+}
+#welcome ul {
+	font-size: 14px;
+	line-height: 1.786;
+	list-style-image: url(../img/vineta.png);
+	margin: 0;
+	padding-left: 13px;
+}
+#welcome ul li {
+	margin-bottom: 10px;
+}
+#izquierda, #derecha {
+    display: inline-block;
+    vertical-align: top;
+}
+#izquierda {
+	width: 320px;
+	padding-right: 30px;
+}
+#derecha {
+	width: 290px;
+}
+#derecha a {
+	font-size: 14px;
+	font-family:"Poppins", sans-serif;
+	color: #00989d;
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+#tell {
+    width: 290px;
+    padding-left: 24px;
+    padding-top: 85px;
+}
+#tell h3 {
+	font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px; 
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+#tell p {
+	font-size: 14px;
+	line-height: 1.786;
+}
+#tell p span {
+	color: rgb(0, 152, 157);
+}
+#tell a {
+	font-size: 14px;
+	line-height: 1.786;
+	color: rgb(0, 152, 157);
+}
+#tell p {
+	margin: 10px 0;
+}
+#principal .contenedor {
+	padding-bottom: 50px;
+}
+#footer {
+	background: url(../img/fondo_footer.png) center top;
+	padding: 30px 0;
+}
+#logo_footer, #copy, #redes, #footer img {
+    display: inline-block;
+    vertical-align: middle;
+} 
+#logo_footer {
+	width: 220px;
+}
+#copy {
+	width: 430px;
+	padding: 0 14px;
+	font-size: 14px;
+}
+#copy span, #copy a {
+	color: rgb(0, 152, 157);
+	text-decoration: underline;
+}
+#redes {
+	padding-left: 12px;
+}
+#iconos {
+	margin-bottom: 16px;
+}
+#iconos a {
+	margin-right: 6px;
+}
+#anio {
+	font-size: 14px;
+}
+#anio span {
+	margin: 0 8px;
+}
